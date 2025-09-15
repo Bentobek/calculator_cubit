@@ -47,7 +47,7 @@ class _CounterScreenState extends State<CounterScreen> {
             onTapCancel: _stopAction,
             child: FloatingActionButton(
               heroTag: "decrement",
-              onPressed: () {}, // пусто, потому что управление через GestureDetector
+              onPressed: () {},
               child: const Icon(Icons.remove),
             ),
           ),
